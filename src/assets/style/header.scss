@@ -1,0 +1,32 @@
+header{
+    position: absolute;
+    width: 100%;
+
+    ul{
+        display: flex;
+        justify-content: flex-end;
+        margin: 40px 13vw;
+
+        li{
+            padding-left: 40px;
+
+            &:first-child{
+                padding-left: 0;
+            }
+        }
+
+        a{
+            color: #fff;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 20px;
+        }
+    }
+
+    hr{
+        width: 100%;
+
+        opacity: 0.5;
+        border: 1px solid #A1A1A1;
+    }
+}
